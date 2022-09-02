@@ -18,18 +18,18 @@ typedef struct VertexNode {
 }VertexNode, AdjMultiList[MAXSIZE];
 typedef struct {
 	AdjMultiList adjMultiList; // VertexNode数组
-	int numVertexNum, numEdgeNum; // 顶点和边的数量
+	int numVertex, numEdge; // 顶点和边的数量
 }GraphAdjMultiList;
 void CreateGraph(GraphAdjMultiList* G) {
 	cout << "请输入顶点的数量和边的数量：" << endl;
-	cin >> G->numVertexNum >> G->numEdgeNum;
-	for (int i = 0; i < G->numVertexNum; i++) {
+	cin >> G->numVertex >> G->numEdge;
+	for (int i = 0; i < G->numVertex; i++) {
 		cin >> G->adjMultiList[i].data;
 		G->adjMultiList[i].firstedge = NULL;
 	}
 	int i, j;
 	EdgeNode *e;
-	for (int k = 0; k < G->numEdgeNum; k++) {
+	for (int k = 0; k < G->numEdge; k++) {
 		cout << "请输入该边的两个顶点：" << endl;
 		cin >> i >> j;
 		e = (EdgeNode*)malloc(sizeof(EdgeNode));
