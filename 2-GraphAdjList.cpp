@@ -43,7 +43,6 @@ void createALGraph(GraphAdjList* G) {
 		G->adjList[j].firstedge = e;
 	}
 }
-
 int main() {
 	return 0;
 }

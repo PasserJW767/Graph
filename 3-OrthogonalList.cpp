@@ -45,7 +45,6 @@ void createGraph(GraphOrthgonalList* G) {
 		G->adjList[j].firstin = e;
 	}
 }
-
 int main() {
 	return 0;
 }

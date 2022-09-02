@@ -130,6 +130,7 @@
     <ClCompile Include="2-GraphAdjList.cpp" />
     <ClCompile Include="1-MGraph.cpp" />
     <ClCompile Include="3-OrthogonalList.cpp" />
+    <ClCompile Include="4-GraphAdjMultiList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

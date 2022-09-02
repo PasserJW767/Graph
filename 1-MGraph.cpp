@@ -3,7 +3,6 @@ using namespace std;
 typedef char VertexType;
 typedef int EdgeType;
 # define MAXVEX 100
-# define INFINITY 65535
 
 //邻接矩阵
 typedef struct {
@@ -32,7 +31,6 @@ void CreateMGraph(MGraph* G)
 		G->arc[j][i] = w;// 因为是无向图，所以这个邻接矩阵是个对称矩阵
 	}
 }
-
 int main() {
 	return 0;
-} 
+}
