@@ -66,9 +66,9 @@ void DFSTraverse(MGraph G) {
 		if (!visited[i])
 			DFS(G, i);
 }
-int main() {
+/*int main() {
 	MGraph G;
 	CreateMGraph(&G);
 	DFSTraverse(G);
 	return 0;
-}
+*/
