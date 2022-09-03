@@ -41,6 +41,3 @@ void CreateGraph(GraphAdjMultiList* G) {
 		G->adjMultiList->firstedge = e;
 	}
 }
-int main() {
-	return 0;
-}

@@ -31,6 +31,3 @@ void createGraph(EdgeArray* G) {
 		G->edgeArr[k].weight = w;
 	}
 }
-int main() {
-	return 0;
-}
