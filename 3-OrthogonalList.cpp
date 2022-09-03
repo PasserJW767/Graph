@@ -66,9 +66,11 @@ void DFSTraverse(GraphOrthgonalList G) {
 		if (!visited3[i])
 			DFS(G, i);
 }
+/*
 int main() {
 	GraphOrthgonalList G;
 	createGraph(&G);
 	DFSTraverse(G);
 	return 0;
 }
+*/
