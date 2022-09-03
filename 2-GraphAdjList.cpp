@@ -64,9 +64,10 @@ void DFSTraverse(GraphAdjList G) {
 		if (!visited2[i])
 			DFS(G, i); // 对每个顶点执行DFS
 }
+/*
 int main() {
 	GraphAdjList G;
 	createALGraph(&G);
 	DFSTraverse(G);
 	return 0;
-}
+}*/

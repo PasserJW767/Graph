@@ -3,6 +3,9 @@ using namespace std;
 typedef char VertexType;
 typedef int EdgeType;
 # define MAXSIZE 50
+# define TRUE 1
+# define FALSE 0
+int visited5[MAXSIZE];
 
 typedef struct EdgeNode {
 	int begin;
@@ -31,3 +34,8 @@ void createGraph(EdgeArray* G) {
 		G->edgeArr[k].weight = w;
 	}
 }
+/*
+int main() {
+	EdgeArray G;
+	createGraph(&G);
+}*/
